@@ -14,7 +14,8 @@ os.makedirs(f'{base_dir}/labels/test', exist_ok=True)
 with open(f'{base_dir}/labels/_annotations.txt', 'r') as annotation_file:
     annotations = annotation_file.readlines()
 
-'''this function will ensure that our annotation's information are in YoloV8 structured way
+'''
+    this function will ensure that our annotation's information are in YoloV8 structured way
 '''
 def process_annotations(annotations, subset):
     for annotation in annotations:
@@ -23,9 +24,11 @@ def process_annotations(annotations, subset):
         bbox_data = parts[1:]
 
         label_file = os.path.splitext(image_file)[0] + '.txt'
-        print(f'new annotation file: {base_dir}/labels/{subset}/{label_file}')
+        #print(f'new annotation file: {base_dir}/labels/{subset}/{label_file}')
         with open(f'{base_dir}/labels/{subset}/{label_file}', 'w') as f:
             for bbox in bbox_data:
-                f.write(f'{bbox.replace(",", " ")}\n')
+                data = bbox.split(",")
+                #we have to remove distance column for training
+                f.write(f'{data[5]} {data[0]} {data[1]} {data[2]} {data[3]}\n')
 
 process_annotations(annotations, 'train')

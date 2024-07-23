@@ -1,4 +1,4 @@
-path: C:/Users/abt/Desktop/ROD/Yolo/AUT-Bsc-Finall-Project-ComputerVision
+path: C:/Users/abt/Desktop/ROD/Yolo/AUT-Bsc-Finall-Project-ComputerVision/dataset
 train: images/train
 val: images/val
 test: images/test
