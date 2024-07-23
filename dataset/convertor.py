@@ -5,45 +5,40 @@ from PIL import Image
 
 base_dir = 'dataset'
 
-# Directories
 os.makedirs(f'{base_dir}/images/train', exist_ok=True)
 os.makedirs(f'{base_dir}/images/val', exist_ok=True)
-os.makedirs(f'{base_dir}/images/test', exist_ok=True)
+#os.makedirs(f'{base_dir}/images/test', exist_ok=True)
 os.makedirs(f'{base_dir}/labels/train', exist_ok=True)
 os.makedirs(f'{base_dir}/labels/val', exist_ok=True)
-os.makedirs(f'{base_dir}/labels/test', exist_ok=True)
+#os.makedirs(f'{base_dir}/labels/test', exist_ok=True)
 
-# Load annotations and classes
 with open(f'{base_dir}/labels/_annotations.txt', 'r') as annotation_file:
     annotations = annotation_file.readlines()
 
-# Copy a subset of images from train to val and test
+# copy a subset of images from train to val and test
 def copy_files(file_list, src_dir, dest_dir):
     for file in file_list:
         shutil.copy(os.path.join(src_dir, file), os.path.join(dest_dir, file))
 
-# Get a list of all image files
+# get a list of all image files
 image_files = [f for f in os.listdir(f'{base_dir}/images/images') if f.endswith(('.jpg', '.jpeg', '.png'))]
 
-# Shuffle the list to ensure random distribution
+# shuffle the list to ensure random distribution
 random.shuffle(image_files)
 
-# Split into training, validation, and test sets
+# split into training, validation, and test sets
 num_images = len(image_files)
-num_val = num_images // 10  # 10% for validation
-num_test = num_images // 10  # 10% for testing
-num_train = num_images // 80
+num_val = num_images // 10
+num_train = num_images // 90
 
 val_files = image_files[:num_val]
-test_files = image_files[num_val:num_val + num_test]
-train_filers = image_files[num_val + num_test:]
+train_filers = image_files[num_val:]
 
-# Copy files to respective directories
+# copy files to respective directories
 copy_files(val_files, f'{base_dir}/images/images', f'{base_dir}/images/val')
-copy_files(test_files, f'{base_dir}/images/images', f'{base_dir}/images/test')
 copy_files(train_filers, f'{base_dir}/images/images', f'{base_dir}/images/train')
 
-# Process annotations
+# process annotations
 def process_annotations(annotations, subset):
     for annotation in annotations:
         parts = annotation.strip().split()
@@ -66,15 +61,15 @@ def process_annotations(annotations, subset):
             for bbox in bbox_data:
                 data = bbox.split(",")
                 
-                # Normalize coordinates
+                #lets normalize coordinates
                 x_center = float(data[0]) / img_width
                 y_center = float(data[1]) / img_height
                 width = float(data[2]) / img_width
                 height = float(data[3]) / img_height
                 
-                # Write the normalized coordinates with the class label
+                # write the normalized coordinates with the class label
                 f.write(f'{data[5]} {x_center} {y_center} {width} {height}\n')
 
 process_annotations(annotations, 'train')
 process_annotations(annotations, 'val')
-process_annotations(annotations, 'test')
+#process_annotations(annotations, 'test')
