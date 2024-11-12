@@ -1,0 +1,204 @@
+2024-11-12 09:33:09.770 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:09.803 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.033 seconds
+2024-11-12 09:33:10.554 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.0 seconds
+2024-11-12 09:33:10.558 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.002 seconds
+2024-11-12 09:33:10.591 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.033 seconds
+2024-11-12 09:33:11.344 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:11.347 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:11.380 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.033 seconds
+2024-11-12 09:33:12.130 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:12.133 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:12.166 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.033 seconds
+2024-11-12 09:33:12.921 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:12.924 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.002 seconds
+2024-11-12 09:33:12.956 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:13.709 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:13.712 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:13.745 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.033 seconds
+2024-11-12 09:33:14.494 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.0 seconds
+2024-11-12 09:33:14.499 24927-24927 processing time         com...e.realtime_obstacle_detection  D  bounding box and distance calculation and saving operations took 0.006 seconds
+2024-11-12 09:33:14.550 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:14.582 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.031 seconds
+2024-11-12 09:33:15.336 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:15.342 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.002 seconds
+2024-11-12 09:33:15.374 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:16.129 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:16.133 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:16.166 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.033 seconds
+2024-11-12 09:33:16.925 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:16.971 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:17.002 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.03 seconds
+2024-11-12 09:33:17.760 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:17.768 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:17.803 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.035 seconds
+2024-11-12 09:33:18.548 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:18.551 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:18.581 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.03 seconds
+2024-11-12 09:33:19.324 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:19.327 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:19.359 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.031 seconds
+2024-11-12 09:33:20.104 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.0 seconds
+2024-11-12 09:33:20.107 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:20.138 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.031 seconds
+2024-11-12 09:33:20.882 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.0 seconds
+2024-11-12 09:33:20.885 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:20.916 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.031 seconds
+2024-11-12 09:33:21.662 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:21.665 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:21.695 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.03 seconds
+2024-11-12 09:33:22.439 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.0 seconds
+2024-11-12 09:33:22.441 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:22.472 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.03 seconds
+2024-11-12 09:33:23.217 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:23.220 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:23.250 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.03 seconds
+2024-11-12 09:33:23.993 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:23.996 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:24.026 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.03 seconds
+2024-11-12 09:33:24.767 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.0 seconds
+2024-11-12 09:33:24.770 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:24.800 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.03 seconds
+2024-11-12 09:33:25.546 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:25.549 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:25.579 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.03 seconds
+2024-11-12 09:33:26.320 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:26.323 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:26.354 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.031 seconds
+2024-11-12 09:33:27.099 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:27.101 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:27.133 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.03 seconds
+2024-11-12 09:33:27.876 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.0 seconds
+2024-11-12 09:33:27.879 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:27.911 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:28.675 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:28.678 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:28.711 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:29.468 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:29.471 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:29.502 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.031 seconds
+2024-11-12 09:33:30.249 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:30.252 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:30.282 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.03 seconds
+2024-11-12 09:33:31.026 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.0 seconds
+2024-11-12 09:33:31.029 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:31.059 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.03 seconds
+2024-11-12 09:33:31.801 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:31.803 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:31.833 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.03 seconds
+2024-11-12 09:33:32.574 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:32.577 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:32.606 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.029 seconds
+2024-11-12 09:33:33.350 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.0 seconds
+2024-11-12 09:33:33.353 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:33.383 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.03 seconds
+2024-11-12 09:33:34.125 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.0 seconds
+2024-11-12 09:33:34.128 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.002 seconds
+2024-11-12 09:33:34.159 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.031 seconds
+2024-11-12 09:33:34.901 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:34.904 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:34.935 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.031 seconds
+2024-11-12 09:33:35.679 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:35.682 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.002 seconds
+2024-11-12 09:33:35.713 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.031 seconds
+2024-11-12 09:33:36.456 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:36.458 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:36.488 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.029 seconds
+2024-11-12 09:33:37.230 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.0 seconds
+2024-11-12 09:33:37.233 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:37.263 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.03 seconds
+2024-11-12 09:33:38.006 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.0 seconds
+2024-11-12 09:33:38.009 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:38.039 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.03 seconds
+2024-11-12 09:33:38.781 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.0 seconds
+2024-11-12 09:33:38.784 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:38.814 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.03 seconds
+2024-11-12 09:33:39.559 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:39.562 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.002 seconds
+2024-11-12 09:33:39.594 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:40.347 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:40.350 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:40.382 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:41.140 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:41.140 24927-24927 processing time         com...e.realtime_obstacle_detection  D  bounding box and distance calculation and saving operations took 0.001 seconds
+2024-11-12 09:33:41.143 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:41.176 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.033 seconds
+2024-11-12 09:33:41.930 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.0 seconds
+2024-11-12 09:33:41.931 24927-24927 processing time         com...e.realtime_obstacle_detection  D  bounding box and distance calculation and saving operations took 0.002 seconds
+2024-11-12 09:33:41.934 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.002 seconds
+2024-11-12 09:33:41.966 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:42.721 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:42.724 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.002 seconds
+2024-11-12 09:33:42.756 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:43.517 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:43.521 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:43.553 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:44.307 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:44.310 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:44.343 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:45.100 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.0 seconds
+2024-11-12 09:33:45.103 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:45.136 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:45.891 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:45.895 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:45.927 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:46.684 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:46.687 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:46.719 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:47.477 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:47.480 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:47.512 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:48.268 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:48.271 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:48.304 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.033 seconds
+2024-11-12 09:33:49.057 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.0 seconds
+2024-11-12 09:33:49.060 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.002 seconds
+2024-11-12 09:33:49.092 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:49.849 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:49.852 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:49.885 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:50.639 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:50.643 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:50.675 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:51.429 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:51.432 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:51.465 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.033 seconds
+2024-11-12 09:33:52.222 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.0 seconds
+2024-11-12 09:33:52.225 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.002 seconds
+2024-11-12 09:33:52.258 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.033 seconds
+2024-11-12 09:33:53.016 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.0 seconds
+2024-11-12 09:33:53.020 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:53.052 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:53.817 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:53.820 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:53.852 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:54.608 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:54.611 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:54.645 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.033 seconds
+2024-11-12 09:33:55.400 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.0 seconds
+2024-11-12 09:33:55.401 24927-24927 processing time         com...e.realtime_obstacle_detection  D  bounding box and distance calculation and saving operations took 0.002 seconds
+2024-11-12 09:33:55.404 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:55.436 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:56.191 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:56.194 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:56.227 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.033 seconds
+2024-11-12 09:33:56.983 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:56.986 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:57.018 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:57.774 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:57.777 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:57.810 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.033 seconds
+2024-11-12 09:33:58.586 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:58.589 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:58.621 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:33:59.377 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:33:59.380 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:33:59.412 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:34:00.168 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:34:00.171 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.002 seconds
+2024-11-12 09:34:00.203 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.031 seconds
+2024-11-12 09:34:00.960 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:34:00.963 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:34:00.995 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds
+2024-11-12 09:34:01.745 24927-24927 processing time         com...e.realtime_obstacle_detection  D  finding the bounding box and saving operations took 0.001 seconds
+2024-11-12 09:34:01.748 24927-24927 processing time         com...e.realtime_obstacle_detection  D  Preprocessing and rotation took 0.001 seconds
+2024-11-12 09:34:01.781 24927-24927 processing time         com...e.realtime_obstacle_detection  D  preparation of imageprocessor and fundamental variables took 0.032 seconds

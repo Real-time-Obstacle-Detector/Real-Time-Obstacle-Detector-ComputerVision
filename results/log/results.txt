@@ -1,0 +1,197 @@
+2024-11-05 00:26:14.365 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.849 seconds
+2024-11-05 00:26:15.569 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.812 seconds
+2024-11-05 00:26:16.442 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.82 seconds
+2024-11-05 00:26:17.360 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.819 seconds
+2024-11-05 00:26:18.223 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.816 seconds
+2024-11-05 00:26:19.147 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.841 seconds
+2024-11-05 00:26:20.036 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.825 seconds
+2024-11-05 00:26:20.903 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.823 seconds
+2024-11-05 00:26:21.784 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.835 seconds
+2024-11-05 00:26:22.648 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.821 seconds
+2024-11-05 00:26:23.551 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.844 seconds
+2024-11-05 00:26:24.442 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.817 seconds
+2024-11-05 00:26:25.300 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.815 seconds
+2024-11-05 00:26:26.173 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.816 seconds
+2024-11-05 00:26:27.030 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.813 seconds
+2024-11-05 00:26:27.881 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.811 seconds
+2024-11-05 00:26:28.735 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.812 seconds
+2024-11-05 00:26:29.590 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.814 seconds
+2024-11-05 00:26:30.441 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.811 seconds
+2024-11-05 00:26:31.297 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.815 seconds
+2024-11-05 00:26:32.148 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.811 seconds
+2024-11-05 00:26:33.018 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.829 seconds
+2024-11-05 00:26:33.873 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.816 seconds
+2024-11-05 00:26:35.143 14273-14273 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 1.225 seconds
+---------------------------- PROCESS STARTED (14705) for package com.example.realtime_obstacle_detection ----------------------------
+2024-11-05 00:27:44.017 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.787 seconds
+2024-11-05 00:27:45.160 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.783 seconds
+2024-11-05 00:27:45.958 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.753 seconds
+2024-11-05 00:27:46.775 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.759 seconds
+2024-11-05 00:27:47.568 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.751 seconds
+2024-11-05 00:27:48.368 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.755 seconds
+2024-11-05 00:27:49.157 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.747 seconds
+2024-11-05 00:27:49.959 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.746 seconds
+2024-11-05 00:27:50.744 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.745 seconds
+2024-11-05 00:27:51.532 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.749 seconds
+2024-11-05 00:27:52.320 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.75 seconds
+2024-11-05 00:27:53.105 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.746 seconds
+2024-11-05 00:27:53.890 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.747 seconds
+2024-11-05 00:27:54.697 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.747 seconds
+2024-11-05 00:27:55.486 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.747 seconds
+2024-11-05 00:27:56.280 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.752 seconds
+2024-11-05 00:27:57.078 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.747 seconds
+2024-11-05 00:27:57.923 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.757 seconds
+2024-11-05 00:27:58.755 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.769 seconds
+2024-11-05 00:27:59.555 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.748 seconds
+2024-11-05 00:28:00.351 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.747 seconds
+2024-11-05 00:28:01.191 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.747 seconds
+2024-11-05 00:28:01.978 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.746 seconds
+2024-11-05 00:28:02.763 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.746 seconds
+2024-11-05 00:28:03.565 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.754 seconds
+2024-11-05 00:28:04.447 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.801 seconds
+2024-11-05 00:28:05.324 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.814 seconds
+2024-11-05 00:28:06.201 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.815 seconds
+2024-11-05 00:28:07.068 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.811 seconds
+2024-11-05 00:28:07.937 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.811 seconds
+2024-11-05 00:28:08.808 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.812 seconds
+2024-11-05 00:28:09.679 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.818 seconds
+2024-11-05 00:28:10.576 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.829 seconds
+2024-11-05 00:28:11.454 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.814 seconds
+2024-11-05 00:28:12.314 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.819 seconds
+2024-11-05 00:28:13.166 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.816 seconds
+2024-11-05 00:28:14.021 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.818 seconds
+2024-11-05 00:28:14.870 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.811 seconds
+2024-11-05 00:28:15.713 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.805 seconds
+2024-11-05 00:28:16.561 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.811 seconds
+2024-11-05 00:28:17.417 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.815 seconds
+2024-11-05 00:28:18.273 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.818 seconds
+2024-11-05 00:28:19.125 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.813 seconds
+2024-11-05 00:28:19.978 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.816 seconds
+2024-11-05 00:28:20.830 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.815 seconds
+2024-11-05 00:28:21.686 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.816 seconds
+2024-11-05 00:28:22.536 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.812 seconds
+2024-11-05 00:28:23.378 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.806 seconds
+2024-11-05 00:28:24.221 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.806 seconds
+2024-11-05 00:28:25.069 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.811 seconds
+2024-11-05 00:28:25.915 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.806 seconds
+2024-11-05 00:28:26.754 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.802 seconds
+2024-11-05 00:28:27.597 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.806 seconds
+2024-11-05 00:28:28.440 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.807 seconds
+2024-11-05 00:28:29.288 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.811 seconds
+2024-11-05 00:28:30.134 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.808 seconds
+2024-11-05 00:28:30.976 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.806 seconds
+2024-11-05 00:28:31.821 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.808 seconds
+2024-11-05 00:28:32.666 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.809 seconds
+2024-11-05 00:28:33.513 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.808 seconds
+2024-11-05 00:28:34.356 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.807 seconds
+2024-11-05 00:28:35.196 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.804 seconds
+2024-11-05 00:28:36.039 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.807 seconds
+2024-11-05 00:28:36.883 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.807 seconds
+2024-11-05 00:28:37.731 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.808 seconds
+2024-11-05 00:28:38.587 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.819 seconds
+2024-11-05 00:28:39.434 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.809 seconds
+2024-11-05 00:28:40.281 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.81 seconds
+2024-11-05 00:28:41.127 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.806 seconds
+2024-11-05 00:28:41.972 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.809 seconds
+2024-11-05 00:28:42.816 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.808 seconds
+2024-11-05 00:28:43.659 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.806 seconds
+2024-11-05 00:28:44.501 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.805 seconds
+2024-11-05 00:28:45.343 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.805 seconds
+2024-11-05 00:28:46.189 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.809 seconds
+2024-11-05 00:28:47.031 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.805 seconds
+2024-11-05 00:28:47.874 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.806 seconds
+2024-11-05 00:28:48.718 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.805 seconds
+2024-11-05 00:28:49.560 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.804 seconds
+2024-11-05 00:28:50.402 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.806 seconds
+2024-11-05 00:28:51.245 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.807 seconds
+2024-11-05 00:28:52.102 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.818 seconds
+2024-11-05 00:28:52.966 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.823 seconds
+2024-11-05 00:28:53.821 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.816 seconds
+2024-11-05 00:28:54.691 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.829 seconds
+2024-11-05 00:28:55.554 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.824 seconds
+2024-11-05 00:28:56.418 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.822 seconds
+2024-11-05 00:28:57.271 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.813 seconds
+2024-11-05 00:28:58.137 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.826 seconds
+2024-11-05 00:28:58.987 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.811 seconds
+2024-11-05 00:28:59.833 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.808 seconds
+2024-11-05 00:29:00.686 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 0.813 seconds
+2024-11-05 00:29:01.903 14705-14705 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float32.tflite) inference took 1.176 seconds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2024-11-05 00:30:06.222 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.776 seconds
+2024-11-05 00:30:07.228 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.751 seconds
+2024-11-05 00:30:08.025 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.749 seconds
+2024-11-05 00:30:08.838 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.756 seconds
+2024-11-05 00:30:09.637 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.745 seconds
+2024-11-05 00:30:10.474 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.752 seconds
+2024-11-05 00:30:11.270 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.754 seconds
+2024-11-05 00:30:12.094 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.761 seconds
+2024-11-05 00:30:12.910 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.752 seconds
+2024-11-05 00:30:13.727 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.752 seconds
+2024-11-05 00:30:14.535 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.746 seconds
+2024-11-05 00:30:15.361 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.762 seconds
+2024-11-05 00:30:16.176 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.759 seconds
+2024-11-05 00:30:16.978 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.748 seconds
+2024-11-05 00:30:17.779 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.744 seconds
+2024-11-05 00:30:18.584 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.75 seconds
+2024-11-05 00:30:19.403 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.764 seconds
+2024-11-05 00:30:20.207 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.75 seconds
+2024-11-05 00:30:21.004 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.746 seconds
+2024-11-05 00:30:21.813 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.752 seconds
+2024-11-05 00:30:22.608 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.745 seconds
+2024-11-05 00:30:23.410 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.75 seconds
+2024-11-05 00:30:24.209 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.745 seconds
+2024-11-05 00:30:25.012 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.747 seconds
+2024-11-05 00:30:25.796 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.746 seconds
+2024-11-05 00:30:26.578 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.745 seconds
+2024-11-05 00:30:27.367 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.751 seconds
+2024-11-05 00:30:28.158 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.752 seconds
+2024-11-05 00:30:28.967 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.755 seconds
+2024-11-05 00:30:29.764 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.746 seconds
+2024-11-05 00:30:30.563 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.746 seconds
+2024-11-05 00:30:31.346 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.745 seconds
+2024-11-05 00:30:32.135 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.751 seconds
+2024-11-05 00:30:32.917 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.745 seconds
+2024-11-05 00:30:33.707 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.746 seconds
+2024-11-05 00:30:34.529 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.782 seconds
+2024-11-05 00:30:35.312 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.745 seconds
+2024-11-05 00:30:36.096 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.747 seconds
+2024-11-05 00:30:36.946 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.811 seconds
+2024-11-05 00:30:37.799 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.812 seconds
+2024-11-05 00:30:38.650 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.811 seconds
+2024-11-05 00:30:39.505 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.814 seconds
+2024-11-05 00:30:40.363 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.816 seconds
+2024-11-05 00:30:41.223 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.815 seconds
+2024-11-05 00:30:42.092 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.818 seconds
+2024-11-05 00:30:42.959 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.822 seconds
+2024-11-05 00:30:43.822 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.818 seconds
+2024-11-05 00:30:44.690 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.821 seconds
+2024-11-05 00:30:45.559 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.824 seconds
+2024-11-05 00:30:46.416 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.81 seconds
+2024-11-05 00:30:47.290 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.812 seconds
+2024-11-05 00:30:48.154 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.812 seconds
+2024-11-05 00:30:49.012 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.816 seconds
+2024-11-05 00:30:49.872 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.817 seconds
+2024-11-05 00:30:50.747 15133-15133 model inference time    com...e.realtime_obstacle_detection  D  model(obstacle_detector_float16.tflite) inference took 0.818 seconds
+
+

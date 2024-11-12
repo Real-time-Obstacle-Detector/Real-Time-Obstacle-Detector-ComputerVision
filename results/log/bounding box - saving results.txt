@@ -1,0 +1,26 @@
+----bounding box drawing/saving
+
+
+2024-11-05 00:34:58.960 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.31 seconds
+2024-11-05 00:34:59.798 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.349 seconds
+2024-11-05 00:35:00.585 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.311 seconds
+2024-11-05 00:35:01.436 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.337 seconds
+2024-11-05 00:35:02.206 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.304 seconds
+2024-11-05 00:35:03.039 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.324 seconds
+2024-11-05 00:35:28.712 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.299 seconds
+2024-11-05 00:35:29.838 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.631 seconds
+2024-11-05 00:35:30.324 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.302 seconds
+2024-11-05 00:35:31.140 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.304 seconds
+2024-11-05 00:35:31.953 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.314 seconds
+2024-11-05 00:35:32.741 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.295 seconds
+2024-11-05 00:35:33.565 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.313 seconds
+2024-11-05 00:35:34.348 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.29 seconds
+2024-11-05 00:35:35.156 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.297 seconds
+2024-11-05 00:35:35.972 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.309 seconds
+2024-11-05 00:35:36.772 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.306 seconds
+2024-11-05 00:35:38.342 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.275 seconds
+2024-11-05 00:35:39.415 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.558 seconds
+2024-11-05 00:35:40.222 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.575 seconds
+2024-11-05 00:35:40.989 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.535 seconds
+2024-11-05 00:35:41.782 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.523 seconds
+2024-11-05 00:35:42.633 15752-15868 bounding box drawing    com...e.realtime_obstacle_detection  D  bounding box drawing took 0.575 seconds

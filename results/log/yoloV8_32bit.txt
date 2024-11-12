@@ -1,0 +1,31 @@
+--------------------yolo v8 32 bit
+
+2024-11-05 00:37:50.572 16636-16636 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.483 seconds
+2024-11-05 00:37:53.274 16636-16636 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.421 seconds
+---------------------------- PROCESS STARTED (16884) for package com.example.realtime_obstacle_detection ----------------------------
+2024-11-05 00:38:17.092 16884-16884 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.508 seconds
+---------------------------- PROCESS ENDED (16884) for package com.example.realtime_obstacle_detection ----------------------------
+---------------------------- PROCESS STARTED (17214) for package com.example.realtime_obstacle_detection ----------------------------
+2024-11-05 00:38:50.850 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.496 seconds
+2024-11-05 00:38:53.783 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.514 seconds
+2024-11-05 00:38:56.306 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.453 seconds
+2024-11-05 00:38:58.894 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.417 seconds
+2024-11-05 00:39:01.372 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.418 seconds
+2024-11-05 00:39:03.860 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.414 seconds
+2024-11-05 00:39:06.328 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.419 seconds
+2024-11-05 00:39:08.802 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.407 seconds
+2024-11-05 00:39:11.299 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.427 seconds
+2024-11-05 00:39:13.818 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.447 seconds
+2024-11-05 00:39:16.286 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.419 seconds
+2024-11-05 00:39:18.788 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.433 seconds
+2024-11-05 00:39:21.819 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.967 seconds
+2024-11-05 00:39:26.490 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 4.334 seconds
+2024-11-05 00:39:29.986 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 3.298 seconds
+2024-11-05 00:39:32.944 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.463 seconds
+2024-11-05 00:39:35.450 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.455 seconds
+2024-11-05 00:39:37.946 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.442 seconds
+2024-11-05 00:39:40.476 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.45 seconds
+2024-11-05 00:39:42.943 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.419 seconds
+2024-11-05 00:39:45.449 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.44 seconds
+2024-11-05 00:39:49.114 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 3.603 seconds
+
