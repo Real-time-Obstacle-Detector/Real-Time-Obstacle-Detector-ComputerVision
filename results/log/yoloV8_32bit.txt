@@ -1,10 +1,4 @@
---------------------yolo v8 32 bit
 
-2024-11-05 00:37:50.572 16636-16636 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.483 seconds
-2024-11-05 00:37:53.274 16636-16636 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.421 seconds
----------------------------- PROCESS STARTED (16884) for package com.example.realtime_obstacle_detection ----------------------------
-2024-11-05 00:38:17.092 16884-16884 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.508 seconds
----------------------------- PROCESS ENDED (16884) for package com.example.realtime_obstacle_detection ----------------------------
 ---------------------------- PROCESS STARTED (17214) for package com.example.realtime_obstacle_detection ----------------------------
 2024-11-05 00:38:50.850 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.496 seconds
 2024-11-05 00:38:53.783 17214-17214 model inference time    com...e.realtime_obstacle_detection  D  model(yolov8s_float32.tflite) inference took 2.514 seconds
