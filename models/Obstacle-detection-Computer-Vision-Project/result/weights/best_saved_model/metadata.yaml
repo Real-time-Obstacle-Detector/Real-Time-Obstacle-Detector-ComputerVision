@@ -1,0 +1,23 @@
+description: Ultralytics YOLOv8n model trained on /content/gdrive/MyDrive/yolov8_final_project/data.yaml
+author: Ultralytics
+date: '2024-08-03T19:33:55.870292'
+version: 8.2.71
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Bicycle
+  1: Bus
+  2: Car
+  3: Dog
+  4: Electric pole
+  5: Motorcycle
+  6: Person
+  7: Traffic signs
+  8: Tree
+  9: Uncovered manhole

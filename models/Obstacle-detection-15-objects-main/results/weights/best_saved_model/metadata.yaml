@@ -1,0 +1,32 @@
+description: Ultralytics YOLOv8n model trained on /content/gdrive/MyDrive/fourth_model/dataset/data.yaml
+author: Ultralytics
+date: '2025-01-09T12:09:35.935061'
+version: 8.3.58
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Bike
+  1: Building
+  2: Car
+  3: Person
+  4: Stairs
+  5: Traffic sign
+  6: Electrical Pole
+  7: Road
+  8: Motorcycle
+  9: Dustbin
+  10: Inside wall
+  11: small-obstacles
+  12: trees
+  13: Guard rail
+  14: Pedestrian crosswalk
+args:
+  batch: 1
+  half: false
+  int8: true
