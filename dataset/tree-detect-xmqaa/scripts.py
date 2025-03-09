@@ -1,6 +1,6 @@
 import os
 
-def update_road_signs_labels(labels_folder_path):
+def update_trees_labels(labels_folder_path):
     for filename in os.listdir(labels_folder_path):
         label_file_path = os.path.join(labels_folder_path, filename)
         
@@ -13,7 +13,7 @@ def update_road_signs_labels(labels_folder_path):
             for line in lines:
                 parts = line.strip().split()
                 if parts[0] == '0':
-                    parts[0] = '5'  # Change label 0 to 5 for our data base
+                    parts[0] = '12'  # Change label 0 to 12 for our data base
                 
                 modified_lines.append(" ".join(parts) + "\n")
             
@@ -23,14 +23,14 @@ def update_road_signs_labels(labels_folder_path):
 
             print(f"Updated labels in file: {label_file_path}")
 
-update_road_signs_labels(
-    labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\road signs\\train\\labels"
+update_trees_labels(
+    labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\Tree detect\\train\\labels"
 )
 
-update_road_signs_labels(
-    labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\road signs\\test\\labels"
+update_trees_labels(
+    labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\Tree detect\\test\\labels"
 )
 
-update_road_signs_labels(
-    labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\road signs\\valid\\labels"
+update_trees_labels(
+    labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\Tree detect\\valid\\labels"
 )

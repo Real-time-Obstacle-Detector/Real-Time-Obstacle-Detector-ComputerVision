@@ -1,6 +1,6 @@
 import os
 
-def update_dustbin_labels(labels_folder_path):
+def update_human_labels(labels_folder_path):
     for filename in os.listdir(labels_folder_path):
         label_file_path = os.path.join(labels_folder_path, filename)
         
@@ -23,14 +23,14 @@ def update_dustbin_labels(labels_folder_path):
 
             print(f"Updated labels in file: {label_file_path}")
 
-update_dustbin_labels(
+update_human_labels(
     labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\human\\train\\labels"
 )
 
-update_dustbin_labels(
+update_human_labels(
     labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\human\\test\\labels"
 )
 
-update_dustbin_labels(
+update_human_labels(
     labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\human\\valid\\labels"
 )
