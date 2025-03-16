@@ -24,13 +24,13 @@ def update_houses_labels(labels_folder_path):
             print(f"Updated labels in file: {label_file_path}")
 
 update_houses_labels(
-    labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\AML Homework 1.v2i.yolov8\\train\\labels"
+    labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\building 2\\train\\labels"
 )
 
 update_houses_labels(
-    labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\AML Homework 1.v2i.yolov8\\test\\labels"
+    labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\building 2\\test\\labels"
 )
 
 update_houses_labels(
-    labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\AML Homework 1.v2i.yolov8\\valid\\labels"
+    labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\building 2\\valid\\labels"
 )
