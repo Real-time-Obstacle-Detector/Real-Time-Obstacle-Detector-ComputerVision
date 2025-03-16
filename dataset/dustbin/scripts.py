@@ -1,6 +1,6 @@
 import os
 
-def update_dustbin_labels(labels_folder_path):
+def update_stairs_labels(labels_folder_path):
     for filename in os.listdir(labels_folder_path):
         label_file_path = os.path.join(labels_folder_path, filename)
         
@@ -13,7 +13,7 @@ def update_dustbin_labels(labels_folder_path):
             for line in lines:
                 parts = line.strip().split()
                 if parts[0] == '0':
-                    parts[0] = '9'  # Change label 0 to 9 for our data base
+                    parts[0] = '4'  # Change label 0 to 4 for our data base integration(4 is our stairs index)
                 
                 modified_lines.append(" ".join(parts) + "\n")
             
@@ -23,14 +23,14 @@ def update_dustbin_labels(labels_folder_path):
 
             print(f"Updated labels in file: {label_file_path}")
 
-update_dustbin_labels(
-    labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\dustbin\\train\\labels",
+update_stairs_labels(
+    labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\stairs-all\\train\\labels",
 )
 
-update_dustbin_labels(
-    labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\dustbin\\test\\labels",
+update_stairs_labels(
+    labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\stairs-all\\test\\labels",
 )
 
-update_dustbin_labels(
-    labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\dustbin\\valid\\labels",
+update_stairs_labels(
+    labels_folder_path="C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\stairs-all\\valid\\labels",
 )
