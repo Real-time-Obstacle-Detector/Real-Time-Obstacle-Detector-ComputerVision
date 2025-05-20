@@ -1,0 +1,61 @@
+nc: 80 # number of classes
+scales: # model compound scaling constants, i.e. 'model=yolov8n.yaml' will call yolov8.yaml with scale 'n'
+  # [depth, width, max_channels]
+  n: [0.33, 0.25, 1024] # YOLOv8n summary: 129 layers, 3157200 parameters, 3157184 gradients, 8.9 GFLOPS
+
+# YOLOv8.0n backbone
+backbone:
+  - [ -1, 1, Conv, [   3,  64, 3, 2 ] ]
+  - [ -1, 1, Conv, [  64, 128, 3, 2 ] ]
+  - [ -1, 1, C2f,  [ 128, 128, 3,   True, 1, 1.0 ] ]
+  - [ -1, 1, Detect,[ nc, [ 128 ] ] ]
+
+  - [ -1, 1, Conv, [ 128, 256, 3, 2 ] ]
+  - [ -1, 1, C2f,  [ 256, 256, 6,   True, 1, 1.0 ] ]
+  - [ -1, 1, Detect,[ nc, [ 256 ] ] ]
+
+  - [ -1, 1, Conv, [ 256, 512, 3, 2 ] ]
+  - [ -1, 1, C2f,  [ 512, 512, 6,   True, 1, 1.0 ] ]
+  - [ -1, 1, Detect,[ nc, [ 512 ] ] ]
+
+  - [ -1, 1, Conv, [ 512,1024,3, 2 ] ]
+  - [ -1, 1, C2f,  [1024,1024,3,  True, 1, 1.0 ] ]
+  - [ -1, 1, SPPF, [1024,1024, 5 ] ]
+
+# YOLOv8.0n backbone
+backbone:
+  # [from, repeats, module, args]
+  - [-1, 1, Conv, [64, 3, 2]]
+  - [-1, 1, Conv, [128, 3, 2]]
+  - [-1, 3, C2f, [128, True]]
+  - [[2], 1, Detect, [nc]]
+  - [2, 1, Conv, [256, 3, 2]]
+  - [-1, 6, C2f, [256, True]]
+  - [[5], 1, Detect, [nc]]
+  - [5, 1, Conv, [512, 3, 2]]  
+  - [-1, 6, C2f, [512, True]]  
+  - [[8], 1, Detect, [nc]]  
+  - [8, 1, Conv, [1024, 3, 2]]  
+  - [-1, 3, C2f, [1024, True]]  
+  - [[11], 1, Detect, [nc]]  
+  - [11, 1, SPPF, [1024, 5]]  
+
+# YOLOv8.0n head
+head:
+  - [-1, 1, nn.Upsample, [None, 2, "nearest"]] 
+  - [[-1, 8], 1, Concat, [1]] 
+  - [-1, 3, C2f, [512]] 
+
+  - [-1, 1, nn.Upsample, [None, 2, "nearest"]]
+  - [[-1, 5], 1, Concat, [1]] 
+  - [-1, 3, C2f, [256]] 
+
+  - [-1, 1, Conv, [256, 3, 2]]
+  - [[-1, 16], 1, Concat, [1]] 
+  - [-1, 3, C2f, [512]] 
+
+  - [-1, 1, Conv, [512, 3, 2]]
+  - [[-1, 13], 1, Concat, [1]]
+  - [-1, 3, C2f, [1024]]
+
+  - [[19, 22, 25], 1, Detect, [nc]]
