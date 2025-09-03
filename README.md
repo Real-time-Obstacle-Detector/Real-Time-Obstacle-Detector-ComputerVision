@@ -60,7 +60,7 @@ Post-training, the pipeline includes tools to generate detailed evaluation artif
 1. **Clone** this repository:
 
    ```bash
-   git clone https://github.com/YourUsername/Real-time-Obstacle-Detector-ComputerVision.git
+   git clone git@github.com:Real-time-Obstacle-Detector/Real-Time-Obstacle-Detector-ComputerVision.git
    cd Real-time-Obstacle-Detector-ComputerVision
    ```
 2. **Install** dependencies:
