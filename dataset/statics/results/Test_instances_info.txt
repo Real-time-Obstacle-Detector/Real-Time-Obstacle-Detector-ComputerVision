@@ -1,0 +1,23 @@
+------------------------------
+Test instances info
+ ----- each class info -----
+Bike                  : 18
+Building              : 54
+Car                   : 240
+Person                : 320
+Stairs                : 123
+Traffic sign          : 104
+Electrical Pole       : 30
+Road                  : 37
+Motorcycle            : 37
+Dustbin               : 30
+Dog                   : 30
+Manhole               : 237
+Tree                  : 150
+Guard rail            : 49
+Pedestrian crosswalk  : 189
+Truck                 : 22
+Bus                   : 46
+Bench                 : 12
+ ----- total instances: 1728
+------------------------------------------------------------

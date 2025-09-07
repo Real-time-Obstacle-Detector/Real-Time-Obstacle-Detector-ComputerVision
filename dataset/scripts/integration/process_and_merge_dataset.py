@@ -1,7 +1,7 @@
 import os
 import shutil
 
-def process_and_merge_dataset(dataset_paths, final_dataset_path):
+def process_and_merge_dataset(dataset_paths, final_dataset_path, index_n , changing_index):
     """
     Updates labels and merges datasets into a structured final dataset folder.
 
@@ -9,6 +9,8 @@ def process_and_merge_dataset(dataset_paths, final_dataset_path):
     - dataset_paths: A dictionary containing keys ('train', 'test', 'valid') with
                      sub-dictionaries for 'labels' and 'images' paths.
     - final_dataset_path: Path to the final dataset (e.g., "final_data_set").
+    - index_n: current undesirable  index
+    - changing_index: changing index which we will pass to function based on our object's index in new dataset
     """
 
     for dataset_type, paths in dataset_paths.items():
@@ -32,8 +34,8 @@ def process_and_merge_dataset(dataset_paths, final_dataset_path):
 
                     parts = line.strip().split()
                     
-                    if parts[0] == 'index-n':
-                        parts[0] = 'changing-index'
+                    if parts[0] == index_n:
+                        parts[0] = changing_index
 
                     
                     modified_lines.append(" ".join(parts) + "\n")
@@ -52,19 +54,19 @@ def process_and_merge_dataset(dataset_paths, final_dataset_path):
                     print(f"Copied image: {final_image_path}")
 dataset_paths = {
     "train": {
-        "labels": "C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\Bench Detector.v1i.yolov8\\train\\labels",
-        "images": "C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\Bench Detector.v1i.yolov8\\train\\images",
+        "labels": "...",
+        "images": "...",
     },
     "test": {
-        "labels": "C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\Bench Detector.v1i.yolov8\\test\\labels",
-        "images": "C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\Bench Detector.v1i.yolov8\\test\\images",
+        "labels": "...",
+        "images": "...",
     },
     "valid": {
-        "labels": "C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\Bench Detector.v1i.yolov8\\valid\\labels",
-        "images": "C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\Bench Detector.v1i.yolov8\\valid\\images",
+        "labels": "...",
+        "images": "...",
     }
 }
 
-final_dataset_path = "C:\\Users\\abt\\Documents\\Real-time-obstacle-detector\\data sets\\dataset\\dataset"
+final_dataset_path = "..."
 
 process_and_merge_dataset(dataset_paths, final_dataset_path)

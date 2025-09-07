@@ -1,0 +1,23 @@
+------------------------------
+Dataset instances info
+ ----- each class info -----
+Bike                  : 192
+Building              : 1041
+Car                   : 5497
+Person                : 8962
+Stairs                : 1007
+Traffic sign          : 907
+Electrical Pole       : 391
+Road                  : 682
+Motorcycle            : 1007
+Dustbin               : 1141
+Dog                   : 728
+Manhole               : 2383
+Tree                  : 2075
+Guard rail            : 1133
+Pedestrian crosswalk  : 2493
+Truck                 : 539
+Bus                   : 893
+Bench                 : 260
+ ----- total instances: 31331
+------------------------------------------------------------
