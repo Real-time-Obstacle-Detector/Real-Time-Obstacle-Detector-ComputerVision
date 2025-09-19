@@ -18,6 +18,8 @@ class YOLOv8n_EE(nn.Module):
         self.yaml = model.yaml
         self.stride = model.stride
         self.names = model.names
+        #outputs is an array which will save early exit outputs count for each layer aim to analyse them and data flow.
+        self.outputs = [0,0,0,0,0,0]
 
         super().__init__()
         # Backbone: progressively extract features and reduce spatial resolution
@@ -139,21 +141,20 @@ class YOLOv8n_EE(nn.Module):
         if exit_conf_threshold is not None:
             # If confidence at first exit > threshold, return early
             if pred0[0][:,4].max() > exit_conf_threshold:
-                print(f"Early Exit - Layer 1/Result {pred0}")
+                self.outputs[0] -=-1
                 return pred0
             if pred1[0][:,4].max() > exit_conf_threshold:
-                print(f"Early Exit - Layer 2/Result {pred1}")
+                self.outputs[1] -=-1
                 return pred1
             if pred2[0][:,4].max() > exit_conf_threshold:
-                print(f"Early Exit - Layer 3/Result {pred2}")
+                self.outputs[2] -=-1
                 return pred2
             if pred3[0][:,4].max() > exit_conf_threshold:
-                print(f"Early Exit - Layer 4/Result {pred3}")
+                self.outputs[3] -=-1
                 return pred3
             if pred4[0][:,4].max() > exit_conf_threshold:
-                print(f"Early Exit - Layer 5/Result {pred4}")
+                self.outputs[4] -=-1
                 return pred4
         # Otherwise, return final multi-scale predictions
-        print(f"Final Exit - Layer 5/Result {final}")
-        return (final, '5')
-
+        self.outputs[4] -=-1
+        return final
