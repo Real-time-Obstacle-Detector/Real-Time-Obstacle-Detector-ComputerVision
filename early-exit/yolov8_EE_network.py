@@ -53,6 +53,7 @@ class YOLOv8n_EE(nn.Module):
         self.conv7 = Conv(512, 1024, k=3, s=2)
         # C2f block at P5 for high-level features
         self.c2f8  = C2f(1024,1024, n=3, shortcut=True, g=1, e=1.0)
+        self.exit3 = Detect(nc=self.nc, ch=[1024])
         # Spatial Pyramid Pooling Fast (SPPF) combines multi-scale context
         self.sppf9 = SPPF(1024,1024, k=5)
 
@@ -61,6 +62,7 @@ class YOLOv8n_EE(nn.Module):
         self.up10    = nn.Upsample(scale_factor=2, mode='nearest')
         self.concat11= Concat(dimension=1)
         self.c2f12   = C2f(1024+512, 512, n=3, shortcut=True, g=1, e=0.5)
+        self.exit4 = Detect(nc=self.nc, ch=[512])
 
         # Upsample fused P4 → P3 and fuse with P3 features
         self.up13    = nn.Upsample(scale_factor=2, mode='nearest')
@@ -80,7 +82,7 @@ class YOLOv8n_EE(nn.Module):
         # Final detection head on three scales: P3, P4, P5
         self.detect_final = Detect(nc=self.nc, ch=[256,512,1024])
 
-    def forward(self, x, exit_conf_threshold=None):
+    def forward(self, x, exit_conf_threshold=0.25):
         """
         Forward pass with optional early exits.
         Args:
@@ -106,11 +108,13 @@ class YOLOv8n_EE(nn.Module):
         x7 = self.conv7(x6)                   # P5
         x8 = self.c2f8(x7)
         x9 = self.sppf9(x8)                   # enriched P5
+        pred3 = self.exit3([x9])              # early-exit head 3
 
         # --- Neck: top-down and bottom-up feature fusion ---
         u10 = self.up10(x9)                   # upsample P5 → P4
         f11 = self.concat11([u10, x6])       # fuse with P4
         x12= self.c2f12(f11)
+        pred4 = self.exit4([x12])              # early-exit neck 1
 
         u13 = self.up13(x12)                  # upsample → P3
         f14= self.concat14([u13, x4])        # fuse with P3
@@ -129,16 +133,27 @@ class YOLOv8n_EE(nn.Module):
 
         if self.training:
             # Return all heads for loss computation during training
-            return (pred0, pred1, pred2, final)
+            return (pred0, pred1, pred2, pred3, pred4, final)
 
         # Inference: check early exits if threshold provided
         if exit_conf_threshold is not None:
             # If confidence at first exit > threshold, return early
             if pred0[0][:,4].max() > exit_conf_threshold:
+                print(f"Early Exit - Layer 1/Result {pred0}")
                 return pred0
             if pred1[0][:,4].max() > exit_conf_threshold:
+                print(f"Early Exit - Layer 2/Result {pred1}")
                 return pred1
             if pred2[0][:,4].max() > exit_conf_threshold:
+                print(f"Early Exit - Layer 3/Result {pred2}")
                 return pred2
+            if pred3[0][:,4].max() > exit_conf_threshold:
+                print(f"Early Exit - Layer 4/Result {pred3}")
+                return pred3
+            if pred4[0][:,4].max() > exit_conf_threshold:
+                print(f"Early Exit - Layer 5/Result {pred4}")
+                return pred4
         # Otherwise, return final multi-scale predictions
-        return final
+        print(f"Final Exit - Layer 5/Result {final}")
+        return (final, '5')
+
