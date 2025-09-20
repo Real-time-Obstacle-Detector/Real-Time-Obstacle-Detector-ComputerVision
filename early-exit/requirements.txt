@@ -1,0 +1,9 @@
+ultralytics
+onnx
+onnx_tf
+matplotlib
+protobuf==3.20.1
+keras==2.11.0
+tensorflow-estimator==2.11.0
+tensorboard==2.11.0
+torchinfo
