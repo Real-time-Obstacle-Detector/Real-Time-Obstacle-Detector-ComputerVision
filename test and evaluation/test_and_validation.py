@@ -53,7 +53,8 @@ def main():
     model = YOLO(str(model_path))
 
     map_50_95, map_50, precision, recall = calculate_accuracy_metrics(
-        data=data_yaml,
+        model = model,
+        data_yaml=data_yaml,
         split="test",
         imgsz=args.imgsz,
         batch=args.batch,
