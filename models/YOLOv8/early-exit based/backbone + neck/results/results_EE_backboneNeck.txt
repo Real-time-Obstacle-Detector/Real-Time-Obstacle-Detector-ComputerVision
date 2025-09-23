@@ -1,0 +1,15 @@
+YOLOv8 Evaluation — 2025-09-22T21:55:21
+Model: /root/Desktop/workspace/runs/detect/yolov8n-ee/weights/best.pt
+Test dir: /root/Desktop/workspace/datasets/obstacle-detector/dataset/test  (#images: 1157)
+Image size: 640 | Device: auto | Batch: 8
+
+== Accuracy (Ultralytics val on test split) ==
+mAP50-95: 0.7260
+mAP50:    0.8853
+Precision (mean): 0.8852
+Recall (mean):    0.8244
+
+== == == == Inference Speed Metrics == == == ==
+Average inference time per image: 11.92 ms
+Throughput (FPS): 83.88
+Total wall time on 1157 images: 13.79 s
