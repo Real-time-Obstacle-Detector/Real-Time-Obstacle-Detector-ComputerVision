@@ -3,12 +3,10 @@ import shutil
 
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff", ".webp"}
 
-def make_valid_tmp_thirds(dataset_root, dry_run=False):
+def make_valid_tmp_ds(dataset_root, dry_run=False):
     """
     Create <dataset_root>/valid-tmp with every 1st image of each 3-image sequence from <dataset_root>/valid/images,
     plus its corresponding label from <dataset_root>/valid/labels.
-
-    Pattern: copy #1, skip #2-#3, copy #4, skip #5-#6, ...
 
     Args:
         dataset_root (str | Path): Path to dataset root containing 'valid/images' and 'valid/labels'
@@ -42,8 +40,8 @@ def make_valid_tmp_thirds(dataset_root, dry_run=False):
     skipped_pattern = 0
 
     for idx, img_path in enumerate(imgs, start=1):
-        # Copy 1st of every 10 (1, 11, 21, ...)
-        if (idx - 1) % 10 != 0:
+        # Copy 1st of every 8 (1, 9, 17, ...)
+        if (idx - 1) % 8 != 0:
             skipped_pattern += 1
             continue
 
@@ -86,4 +84,4 @@ def make_valid_tmp_thirds(dataset_root, dry_run=False):
 
     return summary
 
-make_valid_tmp_thirds(dataset_root = "C:/Users/abt/Documents/Real-time-obstacle-detector/data sets/dataset/dataset")
+make_valid_tmp_ds(dataset_root = "C:/Users/abt/Documents/Real-time-obstacle-detector/data sets/dataset/dataset")
