@@ -1,4 +1,3 @@
-# yo.py
 import torch
 import torch.nn as nn
 from ultralytics import YOLO
@@ -60,15 +59,24 @@ def prune_model(model: nn.Module, ratio=0.5):
     return model
 
 if __name__ == "__main__":
-    model_path = "best.pt"
-    y = YOLO(model_path)
-    net = y.model
 
-    before = sum(p.numel() for p in net.parameters())
-    net = prune_model(net, ratio=0.7)  # try 0.3 ~ 0.7
-    after  = sum(p.numel() for p in net.parameters())
+    model_paths = [
+        "customized_without_EE.pt",
+        "EE_backboneonly.pt",
+        "EE_backbone_neck.pt"
+    ]
 
-    print(f"Params: {before/1e6:.2f}M -> {after/1e6:.2f}M")
+    for model_path in model_paths:
+        folder_path = "./pruning/"
+        y = YOLO(folder_path + model_path)
+        net = y.model
 
-    torch.save({"model": net.state_dict()}, "manual_pruned.pt")
-    print("Saved: manual_pruned.pt")
+        before = sum(p.numel() for p in net.parameters())
+        net = prune_model(net, ratio=0.7)  # try 0.3 ~ 0.7
+        after  = sum(p.numel() for p in net.parameters())
+
+        print(f"Params: {before/1e6:.2f}M -> {after/1e6:.2f}M")
+
+        new_model_title = folder_path + model_path.split(".")[0] + "_manual_pruned.pt"
+        torch.save({"model": net}, new_model_title)
+        print(f"Saved: {new_model_title}")
