@@ -10,8 +10,8 @@ from ultralytics import YOLO
 
 PRUNE_RATIO = 0.5          # prune 50% of mid-channels inside each Bottleneck (adaptable)
 IMG_SIZE    = 320
-INPUT_PT    = r"path/to/input"
-OUTPUT_PT   = r"path/to/output"
+INPUT_PT    = r"pruning/EE_backbone_neck.pt"
+OUTPUT_PT   = r"pruning/EE_backbone_neck_pruned.pt"
 
 # Ultralytics Conv wrapper: has .conv (nn.Conv2d), .bn (nn.BatchNorm2d), .act
 def _slice_conv2d(conv: nn.Conv2d, keep_out=None, keep_in=None) -> nn.Conv2d:
