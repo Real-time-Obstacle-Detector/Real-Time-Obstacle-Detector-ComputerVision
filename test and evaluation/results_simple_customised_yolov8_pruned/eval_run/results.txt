@@ -1,0 +1,15 @@
+YOLOv8 Evaluation — 2025-10-22T14:18:09
+Model: /content/drive/MyDrive/EE_using_ultralitycs/results/Model_without_EE/pruned/customized_without_EE_pruned_float32.tflite
+Test dir: /content/drive/MyDrive/dataset/dataset/test  (#images: 1152)
+Image size: 640 | Device: auto | Batch: 1
+
+== Accuracy (Ultralytics val on test split) ==
+mAP50-95: 0.4746
+mAP50:    0.7203
+Precision (mean): 0.8393
+Recall (mean):    0.5625
+
+== == == == Inference Speed Metrics == == == ==
+Average inference time per image: 151.05 ms
+Throughput (FPS): 6.62
+Total wall time on 1152 images: 174.01 s

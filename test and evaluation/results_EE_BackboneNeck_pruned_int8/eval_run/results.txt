@@ -1,0 +1,15 @@
+YOLOv8 Evaluation — 2025-10-22T14:06:56
+Model: /content/drive/MyDrive/EE_using_ultralitycs/results/EE_Backbone_Neck/pruned/EE_backbone_neck_pruned_int8.tflite
+Test dir: /content/drive/MyDrive/dataset/dataset/test  (#images: 1152)
+Image size: 640 | Device: auto | Batch: 1
+
+== Accuracy (Ultralytics val on test split) ==
+mAP50-95: 0.4469
+mAP50:    0.7162
+Precision (mean): 0.8730
+Recall (mean):    0.5395
+
+== == == == Inference Speed Metrics == == == ==
+Average inference time per image: 177.72 ms
+Throughput (FPS): 5.63
+Total wall time on 1152 images: 204.73 s

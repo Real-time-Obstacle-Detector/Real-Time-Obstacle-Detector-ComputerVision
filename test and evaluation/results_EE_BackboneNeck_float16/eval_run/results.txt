@@ -1,0 +1,15 @@
+YOLOv8 Evaluation — 2025-10-22T15:02:02
+Model: /content/drive/MyDrive/EE_using_ultralitycs/results/EE_Backbone_Neck/quantized/EE_Backbone_Neck_float16.tflite
+Test dir: /content/drive/MyDrive/dataset/dataset/test  (#images: 1152)
+Image size: 640 | Device: auto | Batch: 1
+
+== Accuracy (Ultralytics val on test split) ==
+mAP50-95: 0.7119
+mAP50:    0.8754
+Precision (mean): 0.8758
+Recall (mean):    0.8079
+
+== == == == Inference Speed Metrics == == == ==
+Average inference time per image: 171.49 ms
+Throughput (FPS): 5.83
+Total wall time on 1152 images: 197.56 s
