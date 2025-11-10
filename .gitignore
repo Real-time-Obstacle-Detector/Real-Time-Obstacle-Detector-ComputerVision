@@ -3,3 +3,5 @@ Obstacles in Public Spaces for Dist-YOLO/dataset/labels
 runs
 datasets
 pc_runs
+.venv
+__pycache__
