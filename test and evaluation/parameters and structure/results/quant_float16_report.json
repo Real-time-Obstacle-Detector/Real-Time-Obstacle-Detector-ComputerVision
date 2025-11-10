@@ -1,0 +1,118 @@
+{
+  "quant_float16": {
+    "model": "models/YOLOv8/yolov8-obstacle-detection-18-objects/results/quantized/FLOAT16 and 32/best_yolov8_float16.tflite",
+    "analyzer_param_estimate_total": 0,
+    "analyzer_params_by_dtype_estimate": {},
+    "interpreter_param_total_const": 71004306,
+    "params_by_dtype_const": {
+      "<CLASS 'NUMPY.FLOAT32'>": 67944660,
+      "<CLASS 'NUMPY.INT32'>": 86,
+      "<CLASS 'NUMPY.FLOAT16'>": 3059560
+    },
+    "num_quantized_tensors": 24,
+    "num_float_tensors": 515,
+    "sample_quantized_tensor_scales": [
+      [
+        1,
+        "arith.constant",
+        []
+      ],
+      [
+        3,
+        "arith.constant2",
+        []
+      ],
+      [
+        4,
+        "arith.constant3",
+        []
+      ],
+      [
+        5,
+        "arith.constant4",
+        []
+      ],
+      [
+        7,
+        "arith.constant6",
+        []
+      ],
+      [
+        8,
+        "arith.constant7",
+        []
+      ],
+      [
+        9,
+        "arith.constant8",
+        []
+      ],
+      [
+        10,
+        "arith.constant9",
+        []
+      ],
+      [
+        11,
+        "arith.constant10",
+        []
+      ],
+      [
+        13,
+        "arith.constant12",
+        []
+      ],
+      [
+        79,
+        "arith.constant78",
+        []
+      ],
+      [
+        80,
+        "arith.constant79",
+        []
+      ],
+      [
+        81,
+        "arith.constant80",
+        []
+      ],
+      [
+        82,
+        "arith.constant81",
+        []
+      ],
+      [
+        83,
+        "arith.constant82",
+        []
+      ],
+      [
+        84,
+        "arith.constant83",
+        []
+      ],
+      [
+        85,
+        "arith.constant84",
+        []
+      ],
+      [
+        86,
+        "arith.constant85",
+        []
+      ],
+      [
+        87,
+        "arith.constant86",
+        []
+      ],
+      [
+        88,
+        "arith.constant87",
+        []
+      ]
+    ],
+    "graph_dump_head": "=== models/YOLOv8/yolov8-obstacle-detection-18-objects/results/quantized/INT8/best_yolov8_int8.tflite ===\n\nYour TFLite model has '1' subgraph(s). In the subgraph description below,\nT# represents the Tensor numbers. For example, in Subgraph#0, the PAD op takes\ntensor #0 and tensor #1 as input and produces tensor #156 as output.\n\nSubgraph#0 main(T#0) -> [T#407]\n  Op#0 PAD(T#0, T#1[0, 0, 1, 1, 1, ...]) -> [T#156]\n  Op#1 CONV_2D(T#156, T#14, T#78) -> [T#157]\n  Op#2 LOGISTIC(T#157) -> [T#158]\n  Op#3 MUL(T#157, T#158) -> [T#159]\n  Op#4 PAD(T#159, T#1[0, 0, 1, 1, 1, ...]) -> [T#160]\n  Op#5 CONV_2D(T#160, T#155, T#77) -> [T#161]\n  Op#6 LOGISTIC(T#161) -> [T#162]\n  Op#7 MUL(T#161, T#162) -> [T#163]\n  Op#8 CONV_2D(T#163, T#154, T#76) -> [T#164]\n  Op#9 LOGISTIC(T#164) -> [T#165]\n  Op#10 MUL(T#164, T#165) -> [T#166]\n  Op#11 STRIDED_SLICE(T#166, T#91[0, 0, 0, 0], T#90[0, 0, 0, 16], T#89[1, 1, 1, 1]) -> [T#167]\n  Op#12 STRIDED_SLICE(T#166, T#90[0, 0, 0, 16], T#88[0, 0, 0, 32], T#89[1, 1, 1, 1]) -> [T#168]\n  Op#13 CONV_2D(T#168, T#153, T#75) -> [T#169]\n  Op#14 LOGISTIC(T#169) -> [T#170]\n  Op#15 MUL(T#169, T#170) -> [T#171]\n  Op#16 CONV_2D(T#171, T#152, T#74) -> [T#172]\n  Op#17 LOGISTIC(T#172) -> [T#173]\n  Op#18 MUL(T#172, T#173) -> [T#174]\n  Op#19 ADD(T#168, T#174) -> [T#175]\n  Op#20 CONCATENATION(T#167, T#168, T#175) -> [T#176]\n  Op#21 CONV_2D(T#176, T#151, T#73) -> [T#177]\n  Op#22 LOGISTIC(T#177) -> [T#178]\n  Op#23 MUL(T#177, T#178) -> [T#179]\n  Op#24 PAD(T#179, T#1[0, 0, 1, 1, 1, ...]) -> [T#180]\n  Op#25 CONV_2D(T#180, T#150, T#72) -> [T#181]\n  Op#26 LOGISTIC(T#181) -> [T#182]\n  Op#27 MUL(T#181, T#182) -> [T#183]\n  Op#28 CONV_2D(T#183, T#149, T#71) -> [T#184]\n  Op#29 LOGISTIC(T#184) -> [T#185]\n  Op#30 MUL(T#184, T#185) -> [T#186]\n  Op#31 STRIDED_SLICE(T#186, T#91[0, 0, 0, 0], T#88[0, 0, 0, 32], T#89[1, 1, 1, 1]) -> [T#187]\n  Op#32 STRIDED_SLICE(T#186, T#88[0, 0, 0, 32], T#87[0, 0, 0, 64], T#89[1, 1, 1, 1]) -> [T#188]\n  Op#33 CONV_2D(T#188, T#148, T#70) -> [T#189]\n  Op#34 LOGISTIC(T#189) -> [T#190]\n  Op#35 MUL(T#189, T#190) -> [T#191]\n  Op#36 CONV_2D(T#191, T#147, T#69) -> [T#192]\n  Op#37 LOGISTIC(T#192) -> [T#193]\n  Op#38 MUL(T#192, T#193) -> [T#194]\n  Op#39 ADD(T#188, T#194) -> [T#195]\n  Op#40 CONV_2D(T#195, T#146, T#68) -> [T#196]\n  Op#41 LOGISTIC(T#196) -> [T#197]\n  Op#42 MUL(T#196, T#197) -> [T#198]\n  Op#43 CONV_2D(T#198, T#145, T#67) -> [T#199]\n  Op#44 LOGISTIC(T#199) -> [T#200]\n  Op#45 MUL(T#199, T#200) -> [T#201]\n  Op#46 ADD(T#195, T#201) -> [T#202]\n  Op#47 CONCATENATION(T#187, T#188, T#195, T#202) -> [T#203]\n  Op#48 CONV_2D(T#203, T#144, T#66) -> [T#204]\n  Op#49 LOGISTIC(T#204) -> [T#205]\n  Op#50 MUL(T#204, T#205) -> [T#206]\n  Op#51 PAD(T#206, T#1[0, 0, 1, 1, 1, ...]) -> [T#207]\n  Op#52 CONV_2D(T#207, T#143, T#65) -> [T#208]\n  Op#53 LOGISTIC(T#208) -> [T#209]\n  Op#54 MUL(T#208, T#209) -> [T#210]\n  Op#55 CONV_2D(T#210, T#142, T#64) -> [T#211]\n  Op#56 LOGISTIC(T#211) -> [T#212]\n  Op#57 MUL(T#211, T#212) -> [T#213]\n  Op#58 STRIDED_SLICE(T#213, T#91[0, 0, 0, 0], T#87[0, 0, 0, 64], T#89[1, 1, 1, 1]) -> [T#214]\n  Op#59 STRIDED_SLICE(T#213, T#87[0, 0, 0, 64], T#86[0, 0, 0, 128], T#89[1, 1, 1, 1]) -> [T#215]\n  Op#60 CONV_2D(T#215, T#141, T#63) -> [T#216]\n  Op#61 LOGISTIC(T#216) -> [T#217]\n  Op#62 MUL(T#216, T#217) -> [T#218]\n  Op#63 CONV_2D(T#218, T#140, T#62) -> [T#219]\n  Op#64 LOGISTIC(T#219) -> [T#220]\n  Op#65 MUL(T#219, T#220) -> [T#221]\n  Op#66 ADD(T#215, T#221) -> [T#222]\n  Op#67 CONV_2D(T#222, T#139, T#61) -> [T#223]\n  Op#68 LOGISTIC(T#223) -> [T#224]\n  Op#69 MUL(T#223, T#224) -> [T#225]\n  Op#70 CONV_2D(T#225, T#138, T#60) -> [T#226]\n  Op#71 LOGISTIC(T#226) -> [T#227]\n  Op#72 MUL(T#226, T#227) -> [T#228]\n  Op#73 ADD(T#222, T#228) -> [T#229]\n  Op#74 CONCATENATION(T#214, T#215, T#222, T#229) -> [T#230]\n  Op#75 CONV_2D(T#230, T#137, T#59) -> [T#231]\n  Op#76 LOGISTIC(T#231) -> [T#232]\n  Op#77 MUL(T#231, T#232) -> [T#233]\n  Op#78 PAD(T#233, T#1[0, 0, 1, 1, 1, ...]) -> [T#234]\n  Op#79 CONV_2D(T#234, T#136, T#58) -> [T#235]\n  Op#80 LOGISTIC(T#235) -> [T#236]\n  Op#81 MUL(T#235, T#236) -> [T#237]\n  Op#82 CONV_2D(T#237, T#135, T#57) -> [T#238]\n  Op#83 LOGISTIC(T#238) -> [T#239]\n  Op#84 MUL(T#238, T#239) -> [T#240]\n  Op#85 STRIDED_SLICE(T#240, T#91[0, 0, 0, 0], T#86[0, 0, 0, 128], T#89[1, 1, 1, 1]) -> [T#241]\n  Op#86 STRIDED_SLICE(T#240, T#86[0, 0, 0, 128], T#85[0, 0, 0, 256], T#89[1, 1, 1, 1]) -> [T#242]\n  Op#87 CONV_2D(T#242, T#134, T#56) -> [T#243]\n  Op#88 LOGISTIC(T#243) -> [T#244]\n  Op#89 MUL(T#243, T#244) -> [T#245]\n  Op#90 CONV_2D(T#245, T#133, T#55) -> [T#246]\n  Op#91 LOGISTIC(T#246) -> [T#247]\n  Op#92 MUL(T#246, T#247) -> [T#248]\n  Op#93 ADD(T#242, T#248) -> [T#249]\n  Op#94 CONCATENATION(T#241, T#242, T#249) -> [T#250]\n  Op#95 CONV_2D(T#250, T#132, T#54) -> [T#251]\n  Op#96 LOGISTIC(T#251) -> [T#252]\n  Op#97 MUL(T#251, T#252) -> [T#253]\n  Op#98 CONV_2D(T#253, T#131, T#53) -> [T#254]\n  Op#99 LOGISTIC(T#254) -> [T#255]\n  Op#100 MUL(T#254, T#255) -> [T#256]\n  Op#101 MAX_POOL_2D(T#256) -> [T#257]\n  Op#102 MAX_POOL_2D(T#257) -> [T#258]\n  Op#103 MAX_POOL_2D(T#258) -> [T#259]\n  Op#104 CONCATENATION(T#256, T#257, T#258, T#259) -> [T#260]\n  Op#105 CONV_2D(T#260, T#130, T#52) -> [T#261]\n  Op#106 LOGISTIC(T#261) -> [T#262]\n  Op#107 MUL(T#261, T#262) -> [T#263]\n  Op#108 RESIZE_NEAREST_NEIGHBOR(T#263, T#4[40, 40]) -> [T#264]\n  Op#109 CONCATENATION(T#264, T#233) -> [T#265]\n  Op#110 CONV_2D(T#265, T#129, T#51) -> [T#266]\n  Op#111 LOGISTIC(T#266) -> [T#267]\n  Op#112 MUL(T#266, T#267) -> [T#268]\n  Op#113 STRIDED_SLICE(T#268, T#91[0, 0, 0, 0], T#87[0, 0, 0, 64], T#89[1, 1, 1, 1]) -> [T#269]\n  Op#114 STRIDED_SLICE(T#268, T#87[0, 0, 0, 64], T#86[0, 0, 0, 128], T#89[1, 1, 1, 1]) -> [T#270]\n  Op#115 CONV_2D(T#270, T#128, T#50) -> [T#271]\n  Op#116 LOGISTIC(T#271) -> [T#272]\n  Op#117 MUL(T#271, T#272) -> [T#273]\n  Op#118 CONV_2D(T#273, T#127, T#49) -> [T#274]\n  Op#119 LOGISTIC(T#274) -> [T#275]\n  Op#120 MUL(T#274, T#275) -> [T#276]\n  Op#121 CONCATENATION(T#269, T#270, T#276) -> [T#277]\n  Op#122 CONV_2D(T#277, T#126, T#48) -> [T#278]\n  Op#123 LOGISTIC(T#278) -> [T#279]\n  Op#124 MUL(T#278, T#279) -> [T#280]\n  Op#125 RESIZE_NEAREST_NEIGHBOR(T#280, T#5[80, 80]) -> [T#281]\n  Op#126 CONCATENATION(T#281, T#206) -> [T#282]\n  Op#127 CONV_2D(T#282, T#125, T#47) -> [T#283]\n  Op#128 LOGISTIC(T#283) -> [T#284]\n  Op#129 MUL(T#283, T#284) -> [T#285]\n  Op#130 STRIDED_SLICE(T#285, T#91[0, 0, 0, 0], T#88[0, 0, 0, 32], T#89[1, 1, 1, 1]) -> [T#286]\n  Op#131 STRIDED_SLICE(T#285, T#88[0, 0, 0, 32], T#87[0, 0, 0, 64], T#89[1, 1, 1, 1]) -> [T#287]\n  Op#132 CONV_2D(T#287, T#124, T#46) -> [T#288]\n  Op#133 LOGISTIC(T#288) -> [T#289]\n  Op#134 MUL(T#288, T#289) -> [T#290]\n  Op#135 CONV_2D(T#290, T#123, T#45) -> [T#291]\n  Op#136 LOGISTIC(T#291) -> [T#292]\n  Op#137 MUL(T#291, T#292) -> [T#293]\n  Op#138 CONCATENATION(T#286, T#287, T#293) -> [T#294]\n  Op#139 CONV_2D(T#294, T#122, T#44) -> [T#295]\n  Op#140 LOGISTIC(T#295) -> [T#296]\n  Op#141 MUL(T#295, T#296) -> [T#297]\n  Op#142 PAD(T#297, T#1[0, 0, 1, 1, 1, ...]) -> [T#298]\n  Op#143 CONV_2D(T#298, T#121, T#43) -> [T#299]\n  Op#144 LOGISTIC(T#299) -> [T#300]\n  Op#145 MUL(T#299, T#300) -> [T#301]\n  Op#146 CONCATENATION(T#301, T#280) -> [T#302]\n  Op#147 CONV_2D(T#302, T#120, T#42) -> [T#303]\n  Op#148 LOGISTIC(T#303) -> [T#304]\n  Op#149 MUL(T#303, T#304) -> [T#305]\n  Op#150 STRIDED_SLICE(T#305, T#91[0, 0, 0, 0], T#87[0, 0, 0, 64], T#89[1, 1, 1, 1]) -> [T#306]\n  Op#151 STRIDED_SLICE(T#305, T#87[0, 0, 0, 64], T#86[0, 0, 0, 128], T#89[1, 1, 1, 1]) -> [T#307]\n  Op#152 CONV_2D(T#307, T#119, T#41) -> [T#308]\n  Op#153 LOGISTIC(T#308) -> [T#309]\n  Op#154 MUL(T#308, T#309) -> [T#310]\n  Op#155 CONV_2D(T#310, T#118, T#40) -> [T#311]\n  Op#156 LOGISTIC(T#311) -> [T#312]\n  Op#157 MUL(T#311, T#312) -> [T#313]\n  Op#158 CONCATENATION(T#306, T#307, T#313) -> [T#314]\n  Op#159 CONV_2D(T#314, T#117, T#39) -> [T#315]\n  Op#160 LOGISTIC(T#315) -> [T#316]\n  Op#161 MUL(T#315, T#316) -> [T#317]\n  Op#162 PAD(T#317, T#1[0, 0, 1, 1, 1, ...]) -> [T#318]\n  Op#163 CONV_2D(T#318, T#116, T#38) -> [T#319]\n  Op#164 LOGISTIC(T#319) -> [T#320]\n  Op#165 MUL(T#319, T#320) -> [T#321]\n  Op#166 CONCATENATION(T#321, T#263) -> [T#322]\n  Op#167 CONV_2D(T#322, T#115, T#37) -> [T#323]\n  Op#168 LOGISTIC(T#323) -> [T#324]\n  Op#169 MUL(T#323, T#324) -> [T#325]\n  Op#170 STRIDED_SLICE(T#325, T#91[0, 0, 0, 0], T#86[0, 0, 0, 128], T#89[1, 1, 1, 1]) -> [T#326]\n  Op#171 STRIDED_SLICE(T#325, T#86[0, 0, 0, 128], T#85[0, 0, 0, 256], T#89[1, 1, 1, 1]) -> [T#327]\n  Op#172 CONV_2D(T#327, T#114, T#36) -> [T#328]\n  Op#173 LOGISTIC(T#328) -> [T#329]\n  Op#174 MUL(T#328, T#329) -> [T#330]\n  Op#175 CONV_2D(T#330, T#113, T#35) -> [T#331]\n  Op#176 LOGISTIC(T#331) -> [T#332]\n  Op#177 MUL(T#331, T#332) -> [T#333]\n  Op#178 CONCATENATION(T#326, T#327, T#333) -> [T#334]\n  Op#179 CONV_2D(T#334, T#112, T#34) -> [T#335]\n  Op#180 LOGISTIC(T#335) -> [T#336]\n  Op#181 MUL(T#335, T#336) -> [T#337]\n  Op#182 CONV_2D(T#337, T#111, T#33) -> [T#338]\n  Op#183 LOGISTIC(T#338) -> [T#339]\n  Op#184 MUL(T#338, T#339) -> [T#340]\n  Op#185 CONV_2D(T#340, T#110, T#32) -> [T#341]\n  Op#186 LOGISTIC(T#341) -> [T#342]\n  Op#187 MUL(T#341, T#342) -> [T#343]\n  Op#188 CONV_2D(T#343, T#109, T#31) -> [T#344]\n  Op#189 CONV_2D(T#337, T#108, T#30) -> [T#345]\n  Op#190 LOGISTIC(T#345) -> [T#346]\n  Op#191 MUL(T#345, T#346) -> [T#347]\n  Op#192 CONV_2D(T#347, T#107, T#29) -> [T#348]"
+  }
+}

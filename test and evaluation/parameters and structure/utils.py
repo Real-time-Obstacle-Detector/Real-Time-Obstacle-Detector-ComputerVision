@@ -1,4 +1,5 @@
 import collections
+import numpy as np
 
 def count_params_from_interpreter(tensor_details, const_flags):
     """
@@ -21,39 +22,57 @@ def count_params_from_interpreter(tensor_details, const_flags):
               as tuples of (tensor_index, tensor_name, scale_values)
     """
     total = 0
-    by_dtype = collections.Counter()
+    by_dtype = {}
     quantized_tensors = 0
     float_tensors = 0
-    q_scales = []
+    q_scales_preview = []
+
+    def _numel(shape):
+        if shape is None:
+            return 1
+        n = 1
+        for d in shape:
+            if d is None or int(d) < 0:
+                return None
+            n *= int(d)
+        return n
+
     for t in tensor_details:
-        shape = t['shape_signature'] if -1 not in t['shape'] else t['shape_signature']
-        if shape is None or len(shape) == 0:
-            numel = 1
-        else:
-            numel = 1
-            for d in shape:
-                if d < 0:  # unknown
-                    numel = None
-                    break
-                numel *= d
-        q = t.get('quantization_parameters', {})
-        scale = q.get('scales', [])
-        zp = q.get('zero_points', [])
-        dtype = str(t['dtype']).upper()
+        # shape can be 'shape_signature' or 'shape'
+        shape = t.get('shape_signature')
+        if shape is None or any(int(d) < 0 for d in shape):
+            shape = t.get('shape')
+        shape = list(shape) if shape is not None else None
+        numel = _numel(shape)
+
+        # dtype comes back as a numpy dtype
+        dtype_str = str(t.get('dtype')).upper()
+
+        # quant params are numpy arrays (possibly empty)
+        q = t.get('quantization_parameters', {}) or {}
+        scales = np.asarray(q.get('scales', []))
+        zps    = np.asarray(q.get('zero_points', []))
+
+        # count weights (constants) only
         if numel is not None and const_flags.get(t['index'], False):
             total += numel
-            by_dtype[dtype] += numel
-        if scale:
+            by_dtype[dtype_str] = by_dtype.get(dtype_str, 0) + numel
+
+        # classify quantized vs float by presence of non-empty scales (or int dtype)
+        is_quantized = (scales.size > 0) or ('INT' in dtype_str)
+        if is_quantized:
             quantized_tensors += 1
-            q_scales.append((t['index'], t['name'], list(scale)))
+            if len(q_scales_preview) < 20:
+                q_scales_preview.append((t['index'], t['name'], scales.tolist()))
         else:
             float_tensors += 1
+
     return {
         'const_param_total': total,
-        'const_params_by_dtype': dict(by_dtype),
+        'const_params_by_dtype': by_dtype,
         'num_quantized_tensors': quantized_tensors,
         'num_float_tensors': float_tensors,
-        'quantized_tensor_scales': q_scales[:20],  # preview first 20
+        'quantized_tensor_scales': q_scales_preview,
     }
 
 def diff(a, b):
